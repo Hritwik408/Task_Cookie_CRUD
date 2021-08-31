@@ -5,23 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task - Cookie</title>
+    <link rel="stylesheet" href="cookie.css">
 </head>
 <body>
-    <h1>Set a new cookie</h1>
-    <label>Key</label>
-    <input type="text"></input>
-    <label>Value</label>
-    <input type="text"></input>
-    <button>ADD</button>
-    <h1>Get value of the cookie</h1>
-    <label>Key</label>
-    <input type="text"></input>
-    <button>GET</button>
-    <h1>Delete the cookie</h1>
-    <label>Key</label>
-    <input type="text"></input>
-    <button>Delete</button>
-    <h1>List all cookies</h1>
+    <div class="set">
+         <h1>Set a new cookie</h1>
+         <label style="font-size: 25px;"><strong> set key</strong></label>
+         <input type="text" id="key"></input>
+         <label style="font-size: 25px;"><strong>value</strong></label>
+         <input type="text" id="val"></input>
+         <button onclick="setcookies()">add </button>
+    </div>
+    
+    <div class="get">
+        <h1>Get value of the cookie</h1>
+        <label style="font-size: 25px;"><strong>get key</strong></label>
+        <input type="text" id="getkey"></input>
+        <button onclick="getcookies()">GET</button>
+    </div>
 
+    <div class="delete">
+        <h1>Delete the cookie</h1>
+        <label style="font-size: 25px;"><strong> delete key</strong></label>
+        <input type="text" id="delcookie"></input>
+        <button onclick="deletecookies()">Delete</button>
+        
+
+    </div>
+    
+    <div class="list">
+        <h1>List all cookies</h1>
+        <div id="list"><p></p></div>
+
+    </div>
+    
+    <script src="cookie.js"></script>
 </body>
+
 </html>
