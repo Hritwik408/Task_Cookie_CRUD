@@ -1,0 +1,31 @@
+.set{
+    width: auto;
+    display: block;
+    border: 2px solid black;
+    height: 129px;
+     background-color: cadetblue;
+
+}
+.get{
+    width: auto;
+    display: block;
+    border: 2px solid black;
+    height: 129px;
+     background-color: cadetblue;
+
+}
+.delete{
+    width: auto;
+    display: block;
+    border: 2px solid black;
+    height: 129px;
+     background-color: cadetblue;
+
+}
+.list{
+ width: auto;
+ display: block;
+ border: 2px solid black;
+ height: auto;
+ background-color: cadetblue;
+}
